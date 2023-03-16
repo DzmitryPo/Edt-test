@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7a952ca1-cb15-438f-b2c5-db70375e803e">
+  <producedTypes>
+    <objectType typeId="1f3ccf66-ae83-4fce-8861-bf90a0d868c7" valueTypeId="0c99d01d-2738-436c-9b7e-70fa358eb6d8"/>
+    <refType typeId="60945695-516d-4a33-addb-85cd02017579" valueTypeId="116abe2d-bddd-44a2-806a-32ce12480ca5"/>
+    <selectionType typeId="c88476fa-6a9f-44cc-be0c-97bd56f298fe" valueTypeId="fce05125-a482-4138-aeba-2666cc0094cb"/>
+    <listType typeId="3575ad01-9a26-48a7-8f9b-ff74a1df0019" valueTypeId="7f8f537b-349b-4b5f-af43-4e743e50631e"/>
+    <managerType typeId="cb4741ab-efb0-4809-a3c1-b454d3cc8915" valueTypeId="50a4903f-b864-415c-84bf-6e0bba413dea"/>
+  </producedTypes>
+  <name>Document</name>
+  <synonym>
+    <key>en</key>
+    <value>Document</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Document.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="f65bd1b9-edc7-4ea9-997e-5b7713f47e8f">
+    <name>Attribute</name>
+    <synonym>
+      <key>en</key>
+      <value>Attribute</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="24383c6a-4e7a-4608-80a3-32f56ec42f4a">
+    <producedTypes>
+      <objectType typeId="e71ee503-4572-4c94-a4f6-76a0bc87c029" valueTypeId="427b5a11-1811-4c8d-a1f2-060c4e79d9ee"/>
+      <rowType typeId="83c1a0d2-d62d-47a1-9c12-3afec05709a0" valueTypeId="ffeab439-99d4-4041-84d7-892ff3885386"/>
+    </producedTypes>
+    <name>TabularSection</name>
+    <synonym>
+      <key>en</key>
+      <value>Tabular section</value>
+    </synonym>
+    <attributes uuid="48ce1fb0-d051-42fd-8b41-bce7c30d8612">
+      <name>Attribute</name>
+      <synonym>
+        <key>en</key>
+        <value>Attribute</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

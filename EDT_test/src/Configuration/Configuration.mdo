@@ -38,4 +38,7 @@
     </synonym>
     <languageCode>en</languageCode>
   </languages>
+  <constants>Constant.Constant</constants>
+  <catalogs>Catalog.Catalog</catalogs>
+  <documents>Document.Document</documents>
 </mdclass:Configuration>
