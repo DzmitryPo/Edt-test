@@ -40,5 +40,7 @@
   </languages>
   <constants>Constant.Constant</constants>
   <catalogs>Catalog.Catalog</catalogs>
+  <catalogs>Catalog.Catalog1</catalogs>
   <documents>Document.Document</documents>
+  <documents>Document.Document1</documents>
 </mdclass:Configuration>
