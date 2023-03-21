@@ -43,4 +43,6 @@
   <catalogs>Catalog.Catalog1</catalogs>
   <documents>Document.Document</documents>
   <documents>Document.Document1</documents>
+  <enums>Enum.Enum</enums>
+  <reports>Report.Report</reports>
 </mdclass:Configuration>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="02b46d6f-5680-4e5c-afb8-e5f5db490973">
+  <producedTypes>
+    <refType typeId="c06b746b-4d9d-4456-a8bf-69e24a77eb7a" valueTypeId="acabd9c8-d274-4a2f-a0e9-f33364bbf524"/>
+    <listType typeId="32af79ed-1127-463a-9f13-1d0471be5ec7" valueTypeId="717be0e9-d10a-4bcf-85ad-db412c15cbd4"/>
+    <managerType typeId="0c392d8f-29de-4856-98f6-1b09b91706af" valueTypeId="d300e6d9-7e60-4654-a380-8f734a3f203d"/>
+  </producedTypes>
+  <name>Enum</name>
+  <synonym>
+    <key>en</key>
+    <value>Enum</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Enum>
