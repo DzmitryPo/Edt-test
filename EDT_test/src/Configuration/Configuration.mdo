@@ -45,4 +45,6 @@
   <documents>Document.Document1</documents>
   <enums>Enum.Enum</enums>
   <reports>Report.Report</reports>
+  <informationRegisters>InformationRegister.InformationRegister</informationRegisters>
+  <tasks>Task.Task</tasks>
 </mdclass:Configuration>
